@@ -1,8 +1,6 @@
 package tests;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
-import com.codeborne.selenide.SelenideElement;
 import org.testng.annotations.Test;
 
 public class ButtonTest extends BaseTest {

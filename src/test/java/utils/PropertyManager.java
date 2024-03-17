@@ -10,7 +10,7 @@ public class PropertyManager {
     public PropertyManager() {
         Properties props = new Properties();
         try {
-            props.load(new FileReader(new File(ClassLoader.getSystemResource("config.properties").getPath())));
+            props.load(new FileReader((ClassLoader.getSystemResource("config.properties").getPath())));
             property = props;
         } catch (IOException e) {
             System.out.println("Propeties file not found!");
